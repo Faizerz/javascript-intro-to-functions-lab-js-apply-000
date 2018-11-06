@@ -7,7 +7,8 @@ function whisper(string) {
 }
 
 function longShout(string){
-  console.log(string.toUpperCase());
+  string = string.toUpperCase();
+  console.log(string);
 }
 
 
